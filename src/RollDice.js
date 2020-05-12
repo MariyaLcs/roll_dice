@@ -16,8 +16,8 @@ class RollDice extends Component {
     return (
       <div>
         <h1>{this.state.num}</h1>
-        <Die count={this.state.rand} />
-        <Die count={this.state.rand} />
+        <Die count={this.state.num} />
+        <Die count={this.state.num} />
         <button onClick={this.roll}>Roll Dice</button>
       </div>
     );
